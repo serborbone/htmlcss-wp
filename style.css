@@ -40,6 +40,21 @@ wrap delle tre img del main
   object-fit: cover;
 }
 
+/* Testo sotto IMG tre colonne */
+
+.col-text {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #acacac;
+  margin-bottom: 20px;
+}
+
+.col-text .col-text-h3 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: #000;
+}
+
 
 /** FINE CLASSI COMUNI **/
 
