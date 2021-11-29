@@ -7,7 +7,42 @@
 .container {
   width: 50%;
   margin: 10px auto;
+  font-family: 'Outfit', sans-serif;
 }
+
+/*** CLASSI COMUNI ***/
+
+
+/* Overlay IMG */
+
+.overlay {  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  border-radius: 10px;
+}
+
+/* 
+Classe dimensioni 
+wrap delle tre img del main  
+*/
+.main-img-wrap {
+  height: 150px;
+  position: relative;
+}
+
+/* Classe dim. immagini colonne sx e dx*/
+.small-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+/** FINE CLASSI COMUNI **/
+
 
 /* Sezione Header */
 
@@ -50,7 +85,6 @@
 
 .header-container .banner {
   margin-top: 25px;
-  background-color: #E1D67A;
   height: 420px;
   position: relative;
   
@@ -63,20 +97,9 @@
   border-radius: 10px;
 }
 
-/* Overlay banner */
-
-.banner .overlay {  
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  border-radius: 10px;
-}
-
 /* Testo banner */
 
 .banner .banner-text {
-  font-family: 'Outfit', sans-serif;
   width: 42%;
   display: inline-block;
   position: absolute;
@@ -90,6 +113,47 @@
   font-weight: 500;
 }
 
-.banner-text .sub-text {
+.banner-text .banner-sub-text {
   font-size: 0.85em;
+}
+
+.main-content .main-title {
+  margin-top: 25px;
+}
+
+.main-title .title-h2 {
+  font-size: 1.6em;
+}
+
+.main-title .main-subtext {
+  font-size: 0.9em;
+  color: #bdbdbd;
+}
+
+.col-wrap {
+  margin-top: 25px;
+}
+
+
+/* Colonna sinistra del main */
+
+.col-wrap .left-section {
+  width: 20%;
+  float: left;
+}
+
+/* Colonna centrale del main*/
+
+.col-wrap .center-section {
+  width: 60%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Colonna destra del main */
+
+.col-wrap .right-section {
+  width: 20%;
+  float: right;
 }
