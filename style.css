@@ -172,3 +172,23 @@ wrap delle tre img del main
   width: 20%;
   float: right;
 }
+
+/* CLEARFIX */
+
+.main-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+
+.footer-container .footer-content {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer-content::after {;
+  content: '\1F499';
+}
